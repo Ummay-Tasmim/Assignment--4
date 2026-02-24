@@ -69,10 +69,17 @@ body{
 
 .jobs-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(555.33px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(900px,1fr));
   gap:20px;
   background-color: white;
 }
+
+.job-card{
+  position: relative;
+}
+
+
+
 
 /* Card Animation */
 .job-card{
@@ -111,9 +118,9 @@ body{
   color:white;
 }
 
-.interview{background:#16a34a;}
-.rejected{background:#dc2626;}
-.delete{background:black;}
+.interview{background:#67b785;}
+.rejected{background:#9c5c5c;}
+.delete{background:rgb(58, 56, 56);}
 
 .empty{
   text-align:center;

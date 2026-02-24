@@ -44,6 +44,9 @@ function render(){
       <button class="btn delete">Delete</button>
     `;
 
+
+
+
     card.querySelector(".interview").addEventListener("click",()=>{
       job.status="interview";
       currentTab="interview";
@@ -63,6 +66,8 @@ function render(){
       jobs.splice(index,1);
       render();
     });
+
+
 
     container.appendChild(card);
   });
